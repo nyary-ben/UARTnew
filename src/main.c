@@ -15,7 +15,7 @@ int main(void)
     /* Redefine this float T for the data from Lucas*/
     while (true) {   /* run the reading temperature inside the loop and save each 100 data and then send, save and then send*/
         T[0] = 7.0;
-        T[1] = 4.0;
+        T[1] = -666;
         T[2] = 23.5;
         T[3] = 99;
         T[4] = 18;
@@ -101,7 +101,7 @@ int main(void)
         T[84] = 18;
         T[85] = 21;
         T[86] = 86;
-        T[87] = 87;
+        T[87] = -666;
         T[88] = 48;
         T[89] = 20;
         T[90] = 18;
